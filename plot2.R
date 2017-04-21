@@ -15,5 +15,5 @@ plot(data2days$date_time, data2days$Global_active_power, xlab = "",
      ylab = "Global Active Power (kilowatts)", type = "l")
 
 # Copy to file
-dev.copy(png, file = "plot2.png")
+dev.copy(png, file = "plot2.png", height=480, width=480)
 dev.off()
